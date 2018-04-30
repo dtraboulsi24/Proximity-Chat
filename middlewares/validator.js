@@ -19,7 +19,7 @@ module.exports.emailExist = function(req,res,next){
       res.render('message',
                   {
                     title:"Error",
-                    msg:"User Already Exist",
+                    msg:"User Already Exists",
                     status:500,
                     error:"",
                     user:req.session.user

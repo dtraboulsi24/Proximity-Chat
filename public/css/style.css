@@ -197,7 +197,7 @@ p{
 /*styling for error id tag*/
 #error1,
 #error2{
-  color: #e60000;
+  color: darkred;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 5px;
