@@ -5,15 +5,8 @@
 </head>
 <body>
   <% include ./parts/header.ejs %>
-  <div class="panel panel-primary" style="margin-left:10%;margin-right:10%;">
-<div class="panel-heading">
-  <h3>Wel Come to MEAN   Chat, Your Favourite Messaging App!</h3>
-  <div > <ul id="hell0" class="list-unstyled">
-
-  </ul> </div>
-</div></div>
-<hr><br>
   <main>
+      <br>
     <div class="container-fluid">
       <input type="hidden" id="user" value="<%= user.username %>"/>
       <div class="row">
@@ -23,11 +16,8 @@
               <h4>Chat Options</h4></div>
 
             <div class="panel-body" id="scrl1">
-              <h4 class="boxF">For Group Chat Click on Group Button and for One-to-One chat click on Username</h4>
+              <h4 class="boxF">For One-to-One chat click on Username</h4>
               <ul id="list" ></ul>
-            </div>
-            <div class="panel-footer">
-              <p id="typing"  class="btn btn-danger btn-block btn-lg"></p>
             </div>
           </div>
         </div>
