@@ -87,6 +87,7 @@ body{
 .input-block{
   margin: auto;
   margin-bottom: 15px;
+    color: black;
 }
 
 .input-block p{
