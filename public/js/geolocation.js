@@ -65,9 +65,12 @@ function getUserLocation() {
 
 function manualUserPrompt() {
   var manCounty = prompt("Sorry but we couldn't get your location\n\nPlease enter your county:","Orange County");
+  if(!manCounty)
+    exit;
   while (!checkCounty(manCounty)) {
     alert("Please choose a valid Southern California County (capitalized)");
     manCounty = prompt("Please enter your county:","Orange County");
+    
   }
 }
 
