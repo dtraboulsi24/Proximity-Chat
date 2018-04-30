@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <% include ./parts/head.ejs %>
+  <script src="/js/geolocation.js"></script>
 </head>
 <body class="login-screen">
   <% include ./parts/header.ejs %>
@@ -27,4 +28,9 @@
   </main>
   <% include ./parts/footer.ejs %>
 </body>
+
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCMdJYDCf_gZ5O9AODdeEe1NMBXx9jj8w&callback=getUserLocation">
+  </script>
+
 </html>
